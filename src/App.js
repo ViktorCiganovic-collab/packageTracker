@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './Navbar';
+import PackageTracker from './PackageTracker';
+import TypingEffect from './TypingEffect'; // Import the TypingEffect component
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App m-0 p-0 w-100">
+      <Navbar />
+      <TypingEffect /> {/* Keep the TypingEffect component here */}
+      <PackageTracker />
     </div>
   );
 }

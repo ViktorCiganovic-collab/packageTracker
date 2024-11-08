@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  height: auto;
   min-height: 100vh;
+  /* background: linear-gradient(110.9deg, rgb(44, 221, 239) 1.1%, rgb(14, 191, 210) 37.6%, rgb(8, 127, 140) 99.2%); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(9,9,121,1) 85%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  }
+  
+  h1 {
+    margin-top: 20px; /* Add some space above the heading */
+  }
+  
+  .navbar {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(9,9,121,1) 85%);
+  margin: 0 !important; /* Remove top margin */
+  padding: 16px; /* Remove default padding */
+  }
+  
+  
+  .container {
+    padding: 0; /* Remove any padding */
+  }
+  
+  #Tracker {
+  color: red !important;
+  }
+  
+  .App {  
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 0;
+  }
+  
+  .inputField {
+  width: 50%;
+  height: 50px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  transition: 1s;
+  }
+  
+  .inputField:hover {
+  transform: scale(1.3);
+  }
+  
+  .content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  gap: 20px;
+  padding: 15px !important;
+  text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+  text-align: center;
   }
-}
+  
+  #typing {
+  text-align: center;
+  font-size: 32px;
+  text-wrap: wrap;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    font-size: 1.5rem; 
+    color: white; 
+  }
+  
+  
+  @media screen and (max-width: 750px) {
+    .content .inputField {
+        width: 90%;
+        height: auto;
+        padding: 12px; 
+    }
+  
+    #typing {
+      font-size: 100%;
+    }
+  }
+  
