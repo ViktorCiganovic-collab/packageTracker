@@ -1,70 +1,152 @@
-# Getting Started with Create React App
+# Package Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React app that tracks packages and deliveries.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Track multiple packages at once.
+- Real-time package status updates.
+- Easy-to-use interface for package tracking.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get started with the project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/packageTracker.git
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Here is a complete list of the packages: 
 
-### `npm run build`
+Order ID: 1
+Status: delivered
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Parcel ID: 2551
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Tracking Number:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Carrier:
 
-### `npm run eject`
+User Name: Jhon Doe
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+------------------
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Order ID: 2
+Status: order-info-received
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Parcel ID: 8925
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Tracking Number:
 
-## Learn More
+Carrier:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+User Name: Jhon Doe
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+------------------
 
-### Code Splitting
+Order ID: 3
+Status: delivered
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Parcel ID: 1453
 
-### Analyzing the Bundle Size
+Tracking Number:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Carrier:
 
-### Making a Progressive Web App
+User Name: Jhon Doe
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+------------------
 
-### Advanced Configuration
+Order ID: 4
+Status: order-info-received
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Parcel ID: 9212
 
-### Deployment
+Tracking Number:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Carrier:
 
-### `npm run build` fails to minify
+User Name: Jhon Doe
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+------------------
+
+Order ID: 5
+Status: order-info-received
+
+Parcel ID: 4251
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Order ID: 6
+Status: on-the-way
+
+Parcel ID: 7124
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Order ID: 7
+Status: on-the-way
+
+Parcel ID: 8012
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Order ID: 8
+Status: order-info-received
+
+Parcel ID: 8047
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Order ID: 9
+Status: on-the-way
+
+Parcel ID: 437
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Order ID: 10
+Status: order-info-received
+
+Parcel ID: 3691
+
+Tracking Number:
+
+Carrier:
+
+User Name: Jhon Doe
+
+------------------
+
+Enjoy!
